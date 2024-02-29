@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les aventures de Blip-Blop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="start"></div>
+<div class="start-line-1"></div>
+<div class="start-line-2"></div>
+<div class="start-line-3"></div>
+<div class="start-line-4"></div>
+<div class="start-line-5"></div>
+<div class="start-line-6"></div>
+<div class="finish"></div>
+<div class="finish-line-1"></div>
+<div class="finish-line-2"></div>
+<div class="finish-line-3"></div>
+<div class="finish-line-4"></div>
+<div class="finish-line-5"></div>
+<div class="finish-line-6"></div>
+<div class="cursor"><img src="perso_1.png"></div>
+<div class="affichage-score"></div>
+<div class="click-text"></div>
+
+<section id="spaceship-container">
+    <a href="#" id="spaceship-game-over-link" onclick="handleSpaceshipClick()">
+        <img src="spaceship.svg" id="spaceship-game-over" alt="le vaisseau de Blip-Blop">
+    </a>
+    <a href="#" id="spaceship-game-won-link" onclick="handleVictorySpaceshipClick()">
+        <img src="spaceship.svg" id="spaceship-game-won" alt="le vaisseau de Blip-Blop">
+    </a>
+</section>
+
+    <div class="murs">
+        <div class="haut">
+            <div class="mur1h"></div>
+            <div class="mur2h"></div>
+            <div class="mur3h"></div>
+            <div class="mur4h"></div>
+            <div class="mur5h"></div>
+            <div class="mur6h"></div>
+            <div class="mur7h"></div>
+            <div class="mur8h"></div>
+            <div class="mur9h"></div>
+            <div class="mur10h"></div>
+            <div class="mur11h"></div>
+            <div class="mur12h"></div>
+            <div class="mur13h"></div>
+            <div class="mur14h"></div>
+            <div class="mur15h"></div>
+            <div class="mur16h"></div>
+            <div class="mur17h"></div>
+            <div class="mur18h"></div>
+            <div class="mur19h"></div>
+            <div class="mur20h"></div>
+        </div>
+
+        <div class="bas">
+            <div class="mur1b"></div>
+            <div class="mur2b"></div>
+            <div class="mur3b"></div>
+            <div class="mur4b"></div>
+            <div class="mur5b"></div>
+            <div class="mur6b"></div>
+            <div class="mur7b"></div>
+            <div class="mur8b"></div>
+            <div class="mur9b"></div>
+            <div class="mur10b"></div>
+            <div class="mur11b"></div>
+            <div class="mur12b"></div>
+            <div class="mur13b"></div>
+            <div class="mur14b"></div>
+            <div class="mur15b"></div>
+            <div class="mur16b"></div>
+            <div class="mur17b"></div>
+            <div class="mur18b"></div>
+            <div class="mur19b"></div>
+            <div class="mur20b"></div>
+        </div>
+    </div>
+    <div class="lives">
+        <img src="lives-1a.png" id="lifeOne">
+        <img src="lives-1a.png" id="lifeTwo">
+        <img src="lives-1a.png" id="lifeThree">
+    </div>
+</body>
+</html>
